@@ -1,2 +1,3 @@
-# reactive-system-demo
-简单实现Vue的响应式原理，适合深入vue响应式的人群学习
+# reactive-system
+
+简单实现 Vue 的响应式原理，适合深入 vue 响应式的人群学习
