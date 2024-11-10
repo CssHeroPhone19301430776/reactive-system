@@ -1,5 +1,3 @@
-import observe from "./index.js"
-
 const userInfo = {
   name: 'CssHero',
   age: 20
@@ -7,16 +5,13 @@ const userInfo = {
 
 observe(userInfo)
 
-
-function setName (name) {
-  userInfo.name = name
-  document.getElementById('name').innerText = userInfo.name
+// 切换数据的函数
+function setName () {
+  document.getElementById('name').innerText = 'name：'+userInfo.name
+}
+function setAge () {
+  document.getElementById('age').innerText = 'age：'+userInfo.age
 }
 
-function setAge (age) {
-  userInfo.age = age
-  document.getElementById('age').innerText = userInfo.age
-}
-
-setAge(10)
-setName('CssHero123')
+autoRun(setName)
+autoRun(setAge)

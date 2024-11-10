@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="./changeInfo.js" type="module" defer></script>
+  <script src="./index.js" defer></script>
+  <script src="./changeInfo.js" defer></script>
 </head>
 <body>
-  <h3 id="name">CssHero</h3>
-  <h3 id="age">20</h3>
+  <h3 id="name"></h3>
+  <h3 id="age"></h3>
   <div>
-    change name：<input id="setNameInput" type="text"> 
+    change name：<input type="text" oninput="userInfo.name = 'name：'+this.value"> 
   </div>
   <div>
-    change age：<input id="setAgeInput" type="text"> 
+    change age：<input type="text" oninput="userInfo.age = 'age：'+this.value"> 
   </div>
 </body>
 </html>
