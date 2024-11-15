@@ -2,8 +2,7 @@
 
 ## 📚 概要
 
-简单实现 Vue 的响应式原理，适合想要深入了解 vue 响应式本质的人群学习
-[项目地址](https://github.com/CssHeroPhone19301430776/reactive-system)
+简单实现 Vue2 的响应式原理，适合想要学习 vue2 响应式本质的人群学习
 
 ## 🌱 项目代码分析
 
